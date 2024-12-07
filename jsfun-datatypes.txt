@@ -1,6 +1,6 @@
 JavaScript is dynamically typed ie the variables are not bound to a 
 particular data type
-there are 6 primitive data types number, bigint, string, boolean, null, undefined, symbol
+there are 7 primitive data types number, bigint, string, boolean, null, undefined, symbol
 
 Number data type: special numeric types Infinity -Infinity and NaN are also number type
                 NaN represents computation error as result of incorrect or undefined mathematical operation
