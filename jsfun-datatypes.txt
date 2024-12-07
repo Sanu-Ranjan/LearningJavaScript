@@ -1,0 +1,20 @@
+JavaScript is dynamically typed ie the variables are not bound to a 
+particular data type
+there are 6 primitive data types number, bigint, string, boolean, null, undefined, symbol
+
+Number data type: special numeric types Infinity -Infinity and NaN are also number type
+                NaN represents computation error as result of incorrect or undefined mathematical operation
+                NaN is sticky, it propagates eg: NaN*3=NaN; but except NaN**0=1;
+
+Big Int:for number outside range +/-(2^53-1)
+        syntax
+        //by appending n
+        const num = 1234567890123456789012345678901234567890n;
+        //or
+        let  num = BigInt(2**55);
+
+The typeof operator allows us to see which type is stored in a variable.
+
+    Usually used as typeof x, but typeof(x) is also possible.
+    Returns a string with the name of the type, like "string".
+    For null returns "object" – this is an error in the language, it’s not actually an object.
