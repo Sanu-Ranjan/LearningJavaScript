@@ -1,0 +1,14 @@
+1.The type attribute in "<script type=""></script> is no longer used in modern HTML, instead it is used for javascript modules.
+well this can be used to identify really old code, because it is not used in modern javascript.
+
+2.but if we have a lot of javascript or complex code it is put in separate file and then linked 
+ <script src="/path/.../script.js">
+
+If there are multiple files we use multiple tags
+<script src="/js/script1.js"></script>
+<script src="/js/script2.js"></script>
+
+we can use urls as well
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.js"></script>
+
+3.If there is src used then script insde is ignored

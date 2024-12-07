@@ -1,0 +1,14 @@
+"use strict" or 'use strict' when located at top whole scrit works modern way
+it should be put at top else it will not be activated
+it can be used in functions at top
+
+in developer console it does not use "use strict" by default
+so we use chunk of code and put "use strict"; at top and use shift+Enter to write code in next lines.
+in really old browsers where this does not work we can use (self Invoking function) the following code
+(function(){
+    "use strict";
+    //code here
+})()
+
+Modern javascript supports classes and modules that enable use strict automatically so
+we dont spefifically need to write them.
