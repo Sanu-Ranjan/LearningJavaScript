@@ -1,0 +1,25 @@
+in javascript variables are case sensitive should not start with number 
+$ and _ are allowed but not -
+cannot be reserverd words like let, function, class, return etc....
+"use strict" if used then we need to define variable before using it 
+   else it will throw not defined error
+
+Upper Case Constants: for difficult to remember values that are known befor execution,
+   such constants are names using capital letters and under scores eg:-
+   const COLOR_ORANGE="#FF7F00"
+
+   capital naming should only be used for hard coded constants 
+   and not for storing run time constants
+
+Some good-to-follow rules for variable naming are:
+
+    Use human-readable names like userName or shoppingCart.
+    Stay away from abbreviations or short names like a, b, and c, unless you know what you’re doing.
+    Make names maximally descriptive and concise. Examples of bad names are data and value. Such names 
+    say nothing. It’s only okay to use them if the context of the code makes it exceptionally obvious 
+    which data or value the variable is referencing.
+    Agree on terms within your team and in your mind. If a site visitor is called a “user” then we should 
+    name related variables currentUser or newUser instead of currentVisitor or newManInTown.
+
+Modern JavaScript minifiers and browsers optimize code well enough, so it won’t create performance issues.
+  Using different variables for different values can even help the engine optimize your code.
