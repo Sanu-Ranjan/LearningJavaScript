@@ -1,0 +1,16 @@
+alert: //message appears in modal window 
+      syntax:-
+        alert("hello");
+
+prompt: takes input in modal window
+        syntax:-
+        const title = prompt(title,[default]);
+        //title is the text to show the visitor, 
+        //an optional second parameter that is the default value
+        //[..] denotes parameter is optional, not required
+        //if we dont provide it, it is set to undefined
+
+confirm: inmodal window dispays message and returns true/false for ok/cancel buttons
+         let result= confirm("Are you the boss") //true if ok is clicked 
+         and false if cancel is clicked
+        
