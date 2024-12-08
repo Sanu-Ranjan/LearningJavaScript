@@ -1,0 +1,28 @@
+1.Assignment operator also returns a value, example:-
+  let a = 1;
+  let b = 2;
+  let c = 3- (a=b+1); 
+  console.log(a); //3
+  console.log(b); //0
+
+2.The comma operator allows us to evaluate several expressions, dividing them
+  with a comma ,. Each of them is evaluated but only the result of the last one is returned.
+  For example:
+  let a = (1 + 2, 3 + 4);
+  alert( a ); // 7 (the result of 3 + 4)
+
+3.
+"" + 1 + 0="10" // correct
+"" - 1 + 0=-1;// correct
+true + false= 1;// correct
+6 / "3" = 2; // correct
+"2" * "3" = 6; // correct
+4 + 5 + "px" = "9px"; // correct
+"$" + 4 + 5 = "$45"; // correct
+"4" - 2 = 2; // correct
+"4px" - 2 = NaN ; // correct
+"  -9  " + 5 = "-95" //" -9 5"
+"  -9  " - 5 = -14
+null + 1 = 1; // correct
+undefined + 1= NaN; // correct
+" \t \n" - 2= -2; // correct
